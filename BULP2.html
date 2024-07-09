@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+        body {
+          background-image: url('https://cdn.wallpapersafari.com/42/96/nbr2cY.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+
+<center><img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180"></center>
+
+<center><p style="color: rgb(255, 255, 255);">Click the light bulb to turn on/off the light.</p></center>
+<h1 style="color: rgba(202, 203, 228, 0.342);">About Bulb</h1>
+<h3><ul><p style="color: rgba(255, 223, 41, 0.87);">1.A bulb is the glass part of an electric lamp, which gives out light when electricity passes through it. <br>2.The stairwell was lit by a single bulb. Synonyms: light bulb More Synonyms of bulb in botany, a modified stem that is the resting stage of certain seed plants, particularly perennial monocotyledons. <br>3.A bulb consists of a relatively large, usually globe-shaped, underground bud with membraneous or fleshy overlapping leaves arising from a short stem.<br>4.But lighting has so many variables—brightness, color, temperature, energy efficiency, dimmability—that choosing light bulbs can be confusing.</p></ul>
+<br>
+
+</p></h3>
+<br>
+<h1><p style="color: rgba(202, 203, 228, 0.342);">Types of Bulb Manufacture Company in India</p></h1>
+<ul>
+    <h3 style="color:rgb(255, 187, 41) ;"><li>Crompton</li>
+    <li>Havells India</li>
+    <li>Vorlane</li>
+    <li>Osram india</li>
+    <li>Philips lighting india</li>
+    <li>Bajaj Electricals</li>
+    <li>Wibro</li></h3>
+    </ul>
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("bulbon")) {
+    image.src = "pic_bulboff.gif";
+  } else {
+    image.src = "pic_bulbon.gif";
+  }
+}
+</script>
+</body>
+</html>
